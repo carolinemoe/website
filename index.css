@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(110, 109, 114);
 }
 
 .align{
@@ -70,6 +70,7 @@ a:hover{
 .projects{
     font-family: 'vintage';
     text-align: center;
+    margin-top: -75px;
 }
 
 .projectMenu{
@@ -79,6 +80,19 @@ a:hover{
     text-align: center;
     color: black;
 }
+
+.speech {
+    margin-top: 130px;
+    margin-left: 130px;
+    margin-bottom: -90px;
+}
+
+
+.point {
+    margin-right: 100px;
+    margin-top: 80px;
+}
+
 
 @font-face {
     font-family: 'winterCoffee';

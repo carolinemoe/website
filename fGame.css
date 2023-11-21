@@ -146,6 +146,12 @@ body{
     font-family:'Courier New', Courier, monospace;
 }
 
+.think {
+    margin-bottom: -50px;
+    margin-top: -50px;
+    margin-right: -40px;
+}
+
 
 a:hover{
     color: white;
