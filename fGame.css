@@ -1,0 +1,170 @@
+body{
+    background-color: antiquewhite;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.backText{
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.fightText{
+    font-size: 60px;
+    font-family: 'neonRave';
+    color: rgb(43, 30, 27);
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.fight{
+   position: relative;
+}
+.fight2{
+    background-image:url('game/ffloor.png');
+    background-repeat: round;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    z-index: 1;
+}
+
+.fightDesc{
+    z-index: 10;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(236, 110, 6)
+}
+
+.flightText{
+    font-size: 60px;
+    font-family: 'intelligence';
+    padding: 20px;
+    margin-left: 40px;
+    color: rgb(255, 255, 204);
+}
+
+.flight{
+    position: relative;
+}
+
+.flight2{
+    background-image:url('game/flloor.png');
+    background-repeat: round;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  
+}
+
+.flightDesc{
+    z-index: 10;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(152, 241, 255)
+}
+
+.arrow{
+    z-index: 10%;
+    top: 25%;
+    right: 18%;
+    position: absolute;
+}
+
+.freezeText{
+    font-size: 60px;
+    font-family: 'fruitDays';
+    padding: 20px;
+    margin-left: 40px;
+    color: rgb(180, 244, 235);
+}
+
+.freeze{
+    position: relative;
+}
+.freeze2{
+    background-image:url('game/flooor.png');
+    background-repeat: round;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.freezeDesc{
+    z-index: 10;
+    position: absolute;
+    top: 8%;
+    right: 15%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(215, 175, 237)
+}
+
+.bubbles{
+    z-index: 10%;
+    top: 18%;
+    right: 15%;
+    position: absolute;
+}
+
+.enemies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.bear{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+.ghost{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.making{
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: pink;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+a:hover{
+    color: white;
+}
+
+@font-face {
+    font-family: 'neonRave';
+    src: url('fonts/NeonRave.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'intelligence';
+    src: url('fonts/intelligence.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'fruitDays';
+    src: url('fonts/FruitDays.woff') format('woff');
+}
+
+
+

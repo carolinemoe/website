@@ -1,0 +1,52 @@
+body{
+    background-color: #643925;
+}
+
+.title{
+    text-align: center;
+    color: #3e9440;
+    font-size: 50px;
+    font-family: 'pixel', Fallback, sans-serif;; 
+}
+
+.menu{
+    padding: 50px;
+    text-decoration: none;
+    color: #3e9440;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.align{
+    text-align: center;
+}
+
+.descript{
+    color:#a2d5ff;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.words{
+    color: pink;
+    font-family: 'pixel';
+    text-align: center;
+    margin-top: 40px;
+}
+
+a:hover{
+    color:rgb(255, 247, 23);
+}
+
+.descript{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 500px 500px;
+   justify-content: center; 
+    padding: 50px;
+  
+}
+
+@font-face {
+    font-family: 'pixel';
+    src: url('fonts/joystix monospace.woff') format('woff');
+}

@@ -1,0 +1,83 @@
+body{
+    background-color: mistyrose;
+}
+
+.align{
+    text-align: center;
+}
+
+.menu{
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: 'milkyBoba';
+}
+a:hover{
+    color:white;
+}
+
+.title{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'winterCoffee', Fallback, sans-serif; 
+}
+
+.me{
+    text-align: center;
+    font-family: 'milkyBoba';
+    margin-top: 40px;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 400px 300px 400px;
+    justify-content: space-between;
+    padding: 30px;
+  
+}
+
+.first{
+    font-family:'Courier New', Courier, monospace;
+    padding-inline-start: 20px;
+   margin-left: 30px;
+    
+}
+
+.photo{
+    justify-self: center;
+   padding: 20px;
+    
+}
+
+.second{
+    font-family:'Courier New', Courier, monospace;
+    padding-inline-end: 20px;
+}
+
+.plink{
+    text-decoration: none;
+    color: black;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: 'winterCoffee';
+    src: url('fonts/WinterCoffee.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'milkyBoba';
+    src: url('fonts/MilkyBoba.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'creamPeach';
+    src: url('fonts/CreamPeach.woff') format('woff');
+}
