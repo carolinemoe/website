@@ -1,5 +1,5 @@
 body{
-    background-color: mistyrose;
+    background-color: rgb(94, 94, 94);
 }
 
 .align{
@@ -20,13 +20,13 @@ a:hover{
     text-align: center;
     color: black;
     font-size: 50px;
-    font-family: 'winterCoffee', Fallback, sans-serif; 
+    font-family: 'vintage', Fallback, sans-serif; 
 }
 
 .me{
     text-align: center;
-    font-family: 'milkyBoba';
-    margin-top: 40px;
+    font-family: 'vintage';
+    margin-top: 60px;
 }
 
 .about{
@@ -66,6 +66,19 @@ a:hover{
     justify-content: space-between;
 }
 
+.projects{
+    font-family: 'vintage';
+    text-align: center;
+}
+
+.projectMenu{
+    font-family: 'vintage';
+    text-decoration: none;
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+
 @font-face {
     font-family: 'winterCoffee';
     src: url('fonts/WinterCoffee.woff') format('woff');
@@ -80,4 +93,9 @@ a:hover{
 @font-face {
     font-family: 'creamPeach';
     src: url('fonts/CreamPeach.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'vintage';
+    src: url('fonts/Perfectly Vintages Font by Keithzo.woff') format('woff');
 }
